@@ -24,7 +24,7 @@ const Hero = () => {
   }));
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-[60vh] md:h-[80vh] w-full overflow-hidden">
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         effect="fade"
@@ -49,7 +49,7 @@ const Hero = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
-                  className="text-5xl md:text-7xl font-black font-serif text-white mb-6 leading-[1.1] tracking-tight"
+                  className="text-4xl md:text-7xl font-black font-serif text-white mb-4 md:mb-6 leading-[1.1] tracking-tight"
                 >
                   {slide.title}
                 </motion.h1>
@@ -57,7 +57,7 @@ const Hero = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
-                  className="text-xl md:text-2xl text-slate-300 mb-8 max-w-2xl leading-relaxed"
+                  className="text-lg md:text-2xl text-slate-300 mb-6 md:mb-8 max-w-2xl leading-relaxed"
                 >
                   {slide.subtitle}
                 </motion.p>

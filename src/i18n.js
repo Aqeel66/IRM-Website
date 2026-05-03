@@ -105,7 +105,15 @@ const resources = {
       "portfolio": {
         "badge": "Portfolio",
         "title": "Our Work in Action",
-        "subtitle": "A visual showcase of our projects, infrastructure, and the environments we create for our clients."
+        "subtitle": "A visual showcase of our projects, infrastructure, and the environments we create for our clients.",
+        "items": [
+          "Islamic Microfinance Toolkit & Frameworks",
+          "Feasibility Studies for Islamic Finance in CIS Countries",
+          "Capital Markets & Sukuk Regulatory Frameworks",
+          "Awqaf-Based Development & Free Zone Models",
+          "Digital & FinTech-Enabled Islamic Finance",
+          "Advancing digital and FinTech-enabled financial innovation"
+        ]
       },
       "map": {
         "badge": "Our Global Presence",
@@ -253,7 +261,15 @@ const resources = {
       "portfolio": {
         "badge": "معرض الأعمال",
         "title": "أعمالنا في الميدان",
-        "subtitle": "عرض مرئي لمشاريعنا وبنيتنا التحتية والبيئات التي ننشئها لعملائنا."
+        "subtitle": "عرض مرئي لمشاريعنا وبنيتنا التحتية والبيئات التي ننشئها لعملائنا.",
+        "items": [
+          "أدوات وأطر التمويل الأصغر الإسلامي",
+          "دراسات الجدوى للتمويل الإسلامي في دول الـ CIS",
+          "أطر تنظيم أسواق المال والصكوك",
+          "نماذج التنمية القائمة على الأوقاف والمناطق الحرة",
+          "التمويل الإسلامي الرقمي والمدعوم بالتكنولوجيا المالية",
+          "تعزيز الابتكار المالي الرقمي والمدعوم بالتكنولوجيا المالية"
+        ]
       },
       "map": {
         "badge": "تواجدنا العالمي",
