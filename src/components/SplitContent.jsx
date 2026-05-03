@@ -96,8 +96,8 @@ const SplitContent = () => {
               >
                 {services.map((service, index) => (
                   <SwiperSlide key={index} className="!h-auto">
-                    <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-lg hover:shadow-2xl transition-all duration-300 h-full flex flex-col min-h-[280px]">
-                      <div className="text-brand-primary mb-4 bg-brand-ash w-12 h-12 rounded-xl flex items-center justify-center shrink-0">
+                    <div className="bg-brand-ash p-6 rounded-2xl border border-slate-200 shadow-md hover:shadow-xl transition-all duration-300 h-full flex flex-col min-h-[280px] group/card hover:bg-white">
+                      <div className="text-brand-primary mb-4 bg-white w-12 h-12 rounded-xl flex items-center justify-center shrink-0 shadow-sm">
                         {React.cloneElement(service.icon, { className: "w-6 h-6" })}
                       </div>
                       <h3 className="text-[14px] font-bold text-brand-deep mb-3 leading-tight">{service.title}</h3>
