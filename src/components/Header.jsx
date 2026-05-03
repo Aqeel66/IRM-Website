@@ -30,8 +30,6 @@ const Header = () => {
   const languages = [
     { name: 'English', code: 'en' },
     { name: 'Arabic', code: 'ar' },
-    { name: 'Spanish', code: 'es' },
-    { name: 'French', code: 'fr' },
   ];
 
   const navLinks = [

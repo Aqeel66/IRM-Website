@@ -45,6 +45,14 @@ const LinkedInFeed = () => {
       image: "https://images.unsplash.com/photo-1454165833767-027ffea9e77b?auto=format&fit=crop&q=80&w=2070",
       likes: 156,
       comments: 21
+    },
+    {
+      id: 5,
+      date: "Aug 30, 2023",
+      text: "Digital transformation is not just about technology; it's about people and inclusive systems. Proud to be leading this change.",
+      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=2070",
+      likes: 312,
+      comments: 45
     }
   ];
 
