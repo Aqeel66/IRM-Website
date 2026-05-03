@@ -17,11 +17,11 @@ function App() {
         {/* Section 1: Hero */}
         <Hero />
 
-        {/* Section 2: Split Content (Services) */}
-        <SplitContent />
-
         {/* Section 3: Animated Statistics */}
         <StatsCounter />
+
+        {/* Section 2: Split Content (Services) */}
+        <SplitContent />
 
         {/* Section 4: Interactive Global Map */}
         <GlobalMap />
