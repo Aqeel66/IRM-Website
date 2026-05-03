@@ -18,9 +18,9 @@ const StatsCounter = () => {
   ];
 
   return (
-    <section id="experience" ref={ref} className="relative -mt-12 z-10 py-16 bg-brand-deep text-white overflow-hidden shadow-2xl">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+    <section id="experience" ref={ref} className="relative -mt-12 z-10 px-6">
+      <div className="max-w-7xl mx-auto py-16 bg-brand-deep text-white rounded-3xl shadow-2xl overflow-hidden border border-white/10">
+        <div className="px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
           {stats.map((stat, index) => (
             <motion.div
               key={stat.label}

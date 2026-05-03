@@ -347,7 +347,6 @@ const Header = () => {
                   )}
                 </div>
               ))}
-              <button className="btn-primary w-full mt-4 py-4">{t('nav.getStarted')}</button>
             </div>
           </motion.div>
         )}
