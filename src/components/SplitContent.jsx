@@ -82,11 +82,11 @@ const SplitContent = () => {
             <div className="relative">
               <Swiper
                 modules={[Navigation, Pagination]}
-                spaceBetween={20}
-                slidesPerView={1}
+                spaceBetween={12}
+                slidesPerView={2}
                 breakpoints={{
-                  640: { slidesPerView: 2 },
-                  1024: { slidesPerView: 3 },
+                  640: { slidesPerView: 2, spaceBetween: 20 },
+                  1024: { slidesPerView: 3, spaceBetween: 20 },
                 }}
                 navigation={{
                   nextEl: '.swiper-next',
@@ -96,12 +96,12 @@ const SplitContent = () => {
               >
                 {services.map((service, index) => (
                   <SwiperSlide key={index} className="!h-auto">
-                    <div className="bg-brand-ash p-6 rounded-2xl border border-slate-200 shadow-md hover:shadow-xl transition-all duration-300 h-full flex flex-col min-h-[280px] group/card hover:bg-white">
-                      <div className="text-brand-primary mb-4 bg-white w-12 h-12 rounded-xl flex items-center justify-center shrink-0 shadow-sm">
+                    <div className="bg-brand-ash p-4 sm:p-6 rounded-2xl border border-slate-200 shadow-md hover:shadow-xl transition-all duration-300 h-full flex flex-col min-h-[220px] sm:min-h-[280px] group/card hover:bg-white">
+                      <div className="text-brand-primary mb-4 bg-white w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center shrink-0 shadow-sm">
                         {React.cloneElement(service.icon, { className: "w-6 h-6" })}
                       </div>
-                      <h3 className="text-[14px] font-bold text-brand-deep mb-3 leading-tight">{service.title}</h3>
-                      <p className="text-slate-500 text-[13px] leading-relaxed mb-4 flex-grow">
+                      <h3 className="text-[12px] sm:text-[14px] font-bold text-brand-deep mb-2 sm:mb-3 leading-tight">{service.title}</h3>
+                      <p className="text-slate-500 text-[11px] sm:text-[13px] leading-relaxed mb-4 flex-grow">
                         {service.desc}
                       </p>
                       <button className="flex items-center gap-2 text-brand-primary font-semibold text-[13px] hover:gap-4 transition-all mt-auto">
