@@ -5,6 +5,7 @@ import StatsCounter from './components/StatsCounter';
 import SplitContent from './components/SplitContent';
 import GlobalMap from './components/GlobalMap';
 import Gallery from './components/Gallery';
+import LinkedInFeed from './components/LinkedInFeed';
 import InstitutionalMandate from './components/InstitutionalMandate';
 import Footer from './components/Footer';
 
@@ -31,6 +32,9 @@ function App() {
 
         {/* Section 6: Photo Gallery */}
         <Gallery />
+
+        {/* Section 7: LinkedIn Updates */}
+        <LinkedInFeed />
       </main>
 
       <Footer />

@@ -44,15 +44,23 @@ const Footer = () => {
               {t('footer.desc')}
             </p>
             <div className="flex gap-4">
-              {[FacebookIcon, TwitterIcon, LinkedinIcon, InstagramIcon].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="p-2 bg-slate-800 rounded-lg text-slate-400 hover:bg-brand-primary hover:text-white transition-all transform hover:-translate-y-1"
-                >
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
+              <a href="#" className="p-2 bg-slate-800 rounded-lg text-slate-400 hover:bg-brand-primary hover:text-white transition-all transform hover:-translate-y-1">
+                <FacebookIcon className="w-5 h-5" />
+              </a>
+              <a href="#" className="p-2 bg-slate-800 rounded-lg text-slate-400 hover:bg-brand-primary hover:text-white transition-all transform hover:-translate-y-1">
+                <TwitterIcon className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/company/inclusiveresourcemanagement/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-slate-800 rounded-lg text-slate-400 hover:bg-brand-primary hover:text-white transition-all transform hover:-translate-y-1"
+              >
+                <LinkedinIcon className="w-5 h-5" />
+              </a>
+              <a href="#" className="p-2 bg-slate-800 rounded-lg text-slate-400 hover:bg-brand-primary hover:text-white transition-all transform hover:-translate-y-1">
+                <InstagramIcon className="w-5 h-5" />
+              </a>
             </div>
           </div>
 
